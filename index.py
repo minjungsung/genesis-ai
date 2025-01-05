@@ -35,7 +35,7 @@ scene = gs.Scene(
 plane = scene.add_entity(gs.morphs.Plane())
 
 # Add a Franka Emika Panda Robot Entity from MJCF File
-franka = scene.add_entity(gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"))
+franka = scene.add_entity(gs.morphs.MJCF(file="xml/unitree_go1/go1.xml"))
 
 # Add a Camera
 cam = scene.add_camera(
